@@ -1,0 +1,481 @@
+/*!
+=========================================================
+     * <1024px
+=========================================================
+*/
+@media  only screen and (max-width :1024px) {
+    /**********************Header**************************/
+    .nav-bar ul li{
+     display: none;
+    }
+    
+    #menu{
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
+        margin:20px 20px;
+        font-size: 30px;
+        z-index: 30000;
+        transition: all 0.5s ease;  
+    }
+    .nav-bar{
+        justify-content: space-between;
+        padding: 0 ;
+    }
+    a.title{
+        position: fixed;
+        z-index: 0;
+        padding: 10px;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.603);
+        width: 100vw;
+    }    
+    .nav-bar ul li a{
+        font-size: 3.5vw;
+        font-weight: bold;
+        transition: all 0.6s ease;
+}
+    .nav-bar ul {
+        border-radius: 0;
+        padding: 0;
+}
+    .nav-links-hover{
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(240, 139, 15, 0.144);
+        backdrop-filter: blur(7px);
+        transition: all 0.5s ease;    
+}
+}
+/*!
+=========================================================
+     *LAPTOP VERSION
+=========================================================
+*/
+ @media only screen and (max-width : 992px)
+ {
+ /**********************Header**************************/
+ .nav-bar{
+     gap: 4vw;
+ }
+ .title{
+     font-size: 6vw;
+ }
+ .nav-bar ul{
+     font-size: 2.5vw;
+ }
+ /*Header-Texte*/
+
+ .Header-Texte{
+     padding:80px;
+
+ }
+ .txt{
+     font-size: 6.5vw; 
+     margin-top:60px; 
+     margin-bottom:10px;    
+ }
+ .Header-Texte h3{
+     font-size: 2.4vw;
+ }
+ .button{
+     font-size: 2vw;
+     padding:10px 50px;
+     margin: 0;
+ }
+  }
+/**********************Our-story**************************/
+ .Our-img{
+     width: 50%;
+ }
+ .Our-img a{
+     height: 35vh;
+     width: 20vw;
+ }
+ 
+/*!
+=========================================================
+     * <768px
+=========================================================
+*/
+ @media only screen and (max-width : 768px)
+ {
+/**********************header**************************/
+ 
+     .head{
+          height: auto;
+          width:auto;
+          position: relative;
+      }
+      #menu{
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
+        margin:20px 30px;
+        font-size: 30px;
+        z-index: 1;
+    }
+    .txt{
+        padding-top: 20px;
+    }
+      .Header-Texte{
+          padding:30px;
+          height: auto;
+      }
+      .button{
+        margin: 0;
+      }
+ /**********************Our-story**************************/
+ .Our-story{
+     flex-wrap: wrap;
+     height: auto;
+     padding:0 10px;
+     order: 1;
+ }
+ .Our-img{
+     width: 100vw;
+     height: auto;
+     flex-wrap: wrap;
+     order: 1;
+ }
+ .Our-img a{
+     height: 24vh;
+     width: 20vw;
+     min-width: 15vw;
+     display: flex;
+ }
+ .lot-img1{
+     margin: 0;
+     padding:0;
+     display: flex;
+     flex-wrap: nowrap;
+ }
+ .lot-img2{
+     margin: 0;
+     display: flex;
+     flex-wrap: nowrap;
+ }
+/*Story-txt*/
+ .Story-txt{
+     width: 100vw;
+     height: auto;
+     padding: 10px;
+ }
+ .Story-txt p{
+     font-size: 2.3vw;
+ }
+ .Story-txt a{
+    font-size: 2.3vw;
+ }
+  /**********************Menu-du-jour**************************/
+.Menu-du-jour{
+     height: auto;
+     width:auto;
+ }
+ .item-menu{
+    height: auto;
+ }
+.menu-title h1{
+     font-size: 6vw;
+}
+.menu-title p{
+     font-size: 2.3vw;
+}
+a.ai{
+     height: 30vh;
+     width: 25vw;
+     } 
+.menu1{
+     background: transparent;
+     height: auto;
+ }
+ .menu2{
+     background: transparent;
+     height: auto;
+ }
+ .menu3{
+     background: transparent;
+     height: auto;
+ }
+ .orloge{
+     padding: 5px 5px;
+  }
+  #cmd{
+     margin: 15px 5px;
+ }
+ .container{
+     margin: 5px 1px;
+     display: flex;
+     flex-wrap: wrap;
+ }
+   /**********************Taste**************************/
+.taste{
+    height: auto;
+     width: 100vw;
+     display: flex;
+     flex-wrap:wrap;
+     gap: 20px;
+ }
+ .taste-txt{
+     width: 100vw;
+     height: 35vh;
+     padding: 0 20px;
+}
+.taste-txt h1{
+     font-size: 5.5vw;
+}
+.taste-txt p{
+     font-size: 2.5vw;
+     margin-bottom: 16px;
+}
+ .taste-img{
+     width: 100vw;
+     height: 35vw;
+     padding: 0 10px;
+     display: flex;
+     align-items: center;
+ }
+   .taste-img img{
+     height:30vh;
+     width: 90vw;
+}
+/*!
+=========================================================
+     * <700px
+=========================================================
+*/
+}
+@media only screen and (max-width : 700px)
+{
+ /**********************Header**************************/
+ .txt{
+     font-size: 5vw;
+     padding-top: 50px;
+ }
+ .Header-Texte h3{
+     font-size: 3vw;
+ }
+ .Header-Texte h1{
+    margin: 0;
+ }
+ ul li{
+    display: none;
+ }
+ .button{
+     font-size: 2.5vw;
+     padding: 7px 30px;
+ }
+ #menu{
+    display: block;
+ }
+ /**********************Our-story**************************/
+ .Our-story{
+    height: auto;
+ }
+ .Our-img{
+     width: 100vw;
+     height: auto;
+     flex-wrap: wrap;
+     order: 1;
+     margin-bottom: 25px;
+ }
+ .Our-img a{
+     height: 24vh;
+     width: 40vw;
+     display: flex;
+ }
+ .Story-txt h1{
+     font-size: 7vw;
+ }
+ .Story-txt p{
+     font-size: 2.5vw;
+ }
+ .Story-txt a{
+     font-size: 3vw;
+ }
+  /**********************Menu-du-jour**************************/
+.Menu-du-jour{
+    height: auto;
+     width:auto;
+ }
+ .menu-title {
+   margin-bottom: 20px;
+}
+.menu-title h1{
+     font-size: 7vw;
+}
+.menu-title p{
+     font-size: 3vw;
+     padding: 0 15px;
+}
+.item-menu{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: auto;
+ }
+  a.ai{
+     height: 25vh;
+     width: 60vw;
+}
+      
+.menu1{
+     background: transparent;
+     height: auto;
+     width: 60vw;
+     margin-bottom: 10px;
+ }
+ .menu2{
+    height: auto;
+    width: 60vw;
+    margin-bottom: 10px;
+ }
+ .menu3{
+     background: transparent;
+     height: auto;
+     width: 60vw;
+     margin-bottom: 10px;
+ }
+ .menu-text{
+     height: auto;
+     width: 60vw;
+ }
+ .menu-text p{
+   font-size: 2.5vw;
+ }
+ .orloge{
+     padding: 2px 5px;
+  }
+  #cmd{
+     margin: 0;
+ }
+ .container{
+     margin: 0;
+     width: 110px;
+     height: 20px;
+     position: relative;
+ }
+ .menu-commender a{
+     font-size: 2.5vw;
+ }
+  /**********************Taste**************************/
+ .taste{
+    gap: 20px;
+ }
+  .taste-img{
+    height: auto;
+ }
+ .taste-txt{
+    height: auto;
+ }
+  .taste-img{
+    height: auto;
+ }
+  .taste-txt h1{
+     font-size: 6vw;
+}
+  .taste-txt p{
+      font-size: 2.5vw;
+}
+}
+/*!
+=========================================================
+     * >600px
+=========================================================
+*/
+@media only screen and (max-width : 600px)
+{
+/**********************Header**************************/
+  .head{
+     height: 75vw;
+  }
+  a.title{
+    font-size: 40px;
+}
+  #menu{
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin:10px 30px;
+    font-size: 30px;
+    z-index: 1;
+}
+  .button{
+     padding:10px 30px;
+  }
+  .Header-Texte{
+     padding-top: 50px;
+}
+/**********************Our-story**************************/
+.Our-story{
+     height: auto;
+ }
+ .Our-img{
+     height: auto;
+     gap: 20px;
+ }
+ .Our-img a{
+     height: 25vh;
+     width: 60vw;
+     margin: auto;
+ }
+ .lot-img1{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+ }
+ .lot-img2{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+ }
+ .Story-txt{
+     height:auto;
+ }
+ .Story-txt h1{
+     font-size: 8vw;
+ }
+ .Story-txt p{
+     font-size: 3vw;
+ }
+ .Story-txt a{
+     font-size: 4vw;
+ }
+ /**********************Menu-du-jou**************************/
+.menu-title h1{
+     font-size: 8vw;
+}
+.menu-title p{
+    font-size: 3vw;
+}
+ /**********************Taste**************************/
+ .taste-txt h1{
+     font-size: 8vw;
+}
+  .taste-txt p{
+      font-size: 3vw;
+}
+}
+/*!
+=========================================================
+     * >375px
+=========================================================
+*/
+ @media  only screen and (max-width : 375px) {
+    a.title{
+        font-size: 30px;
+    }
+    .Header-Texte{
+        padding-top: 30px;
+    }
+
+ }
+ 
