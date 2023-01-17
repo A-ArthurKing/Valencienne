@@ -14,7 +14,7 @@
         position: fixed;
         right: 0;
         top: 0;
-        margin:20px 20px;
+        margin:20px 45px;
         font-size: 30px;
         z-index: 30000;
         transition: all 0.5s ease;  
@@ -26,10 +26,11 @@
     a.title{
         position: fixed;
         z-index: 0;
-        padding: 10px;
+        padding: 10px 45px;
         top: 0;
-        background-color: rgba(0, 0, 0, 0.603);
+        background-color:black;
         width: 100vw;
+        m;
     }    
     .nav-bar ul li a{
         font-size: 3.5vw;
@@ -51,6 +52,13 @@
         background-color: rgba(240, 139, 15, 0.144);
         backdrop-filter: blur(7px);
         transition: all 0.5s ease;    
+}
+/********************opignon***************************/
+.opignon{
+    height: auto;
+}
+.opignon-txt p{
+    font-size: 20px;
 }
 }
 /*!
@@ -98,7 +106,7 @@
      height: 35vh;
      width: 20vw;
  }
- 
+
 /*!
 =========================================================
      * <768px
@@ -225,15 +233,22 @@ a.ai{
  }
  .taste-txt{
      width: 100vw;
-     height: 35vh;
+     height: auto;
      padding: 0 20px;
+     margin: auto;
+     
+}
+.taste-txt .button{
+    margin: 25px;
 }
 .taste-txt h1{
      font-size: 5.5vw;
+     padding: 25px;
 }
 .taste-txt p{
      font-size: 2.5vw;
      margin-bottom: 16px;
+     padding: 25px;
 }
  .taste-img{
      width: 100vw;
@@ -384,6 +399,18 @@ a.ai{
   .taste-txt p{
       font-size: 2.5vw;
 }
+ /********************opignon***************************/
+ #opignon-title{
+    font-size: 25px;
+    padding: 5px;
+ }
+ .p-opignon{
+    flex-wrap: wrap;
+ }
+ .opignon-img{
+    margin: auto;
+ }
+
 }
 /*!
 =========================================================
@@ -414,9 +441,13 @@ a.ai{
   .Header-Texte{
      padding-top: 50px;
 }
+.Header-Texte h3{
+    font-size: 18px;
+}
 /**********************Our-story**************************/
 .Our-story{
      height: auto;
+     margin-bottom: 30px;
  }
  .Our-img{
      height: auto;
@@ -439,12 +470,13 @@ a.ai{
  }
  .Story-txt{
      height:auto;
+     margin-bottom: 30px;
  }
  .Story-txt h1{
      font-size: 8vw;
  }
  .Story-txt p{
-     font-size: 3vw;
+     font-size: 20px;
  }
  .Story-txt a{
      font-size: 4vw;
@@ -454,14 +486,14 @@ a.ai{
      font-size: 8vw;
 }
 .menu-title p{
-    font-size: 3vw;
+    font-size: 20px;
 }
  /**********************Taste**************************/
  .taste-txt h1{
      font-size: 8vw;
 }
   .taste-txt p{
-      font-size: 3vw;
+    font-size: 20px;
 }
 }
 /*!
@@ -470,11 +502,19 @@ a.ai{
 =========================================================
 */
  @media  only screen and (max-width : 375px) {
+
+/**********************Header**************************/
+  .head{
+    height: auto;
+  }
     a.title{
         font-size: 30px;
     }
     .Header-Texte{
         padding-top: 30px;
+    }
+    .button{
+        font-size: 15px;
     }
 
  }
