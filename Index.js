@@ -6,6 +6,7 @@ var liensDeNavigation = document.querySelectorAll("li-nav");
 
 function menuClick(e) {
   navLinks.classList.toggle("nav-links-hover");
+  liensDeNavigation.classList.toggle.style.display = "flex";
 }
 
 buttonMenue.addEventListener("click", menuClick);

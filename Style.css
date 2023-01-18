@@ -25,11 +25,12 @@ body{
     height: 100vh;
     width:auto;
     position: relative;
-}
-.head::before{
     background: url(./Img/Background.jpg) ;
     background-position: center;
     background-size: cover;
+}
+.head::before{ 
+    background-color: rgba(0, 0, 0, 0.452);
     content: "";
     position: absolute;
     top: 0;
@@ -46,14 +47,14 @@ body{
     background-color: rgba(0, 0, 0, 0.603);
     color: White;
     gap: 5vw;
-    padding: 5px 15px;
+    padding: 0 30px;
     position: relative;
     transition: all 0.5s ease;  
 }
 .title{
     font-weight: lighter;
     font-family: 'Qwigley', cursive;
-    font-size: 4vw;
+    font-size: 60px;
     cursor: pointer;
     text-decoration: none;
     color: white;
@@ -66,9 +67,8 @@ body{
     align-items: center;
     justify-content: space-around;
     gap: 5vw;
-    font-size: 1.5vw;
+    font-size: 20px;
     border-radius: 15px;
-    padding: 10px;
     transition: all 0.6s;
 }
 .nav-bar ul li a{
@@ -78,25 +78,30 @@ body{
     cursor: pointer;
     text-decoration: none;
     color: white;
+    box-shadow: 2px  2px chocolate;
 }
 .nav-bar ul li:first-child a{
     background-color: white;
     color: chocolate;
+    transition: all 0.6s;
+    box-shadow: 2px  2px chocolate;
 }
 .nav-bar ul li:first-child a:hover{
     color: white;
-    background-color: chocolate;
+    transition: all 0.6s;
+    background-color: transparent;
+    box-shadow: 2px  3px chocolate;
  }
 .nav-bar ul li a:hover{
     color: white;
-    background-color: chocolate;
+    font-size: 21px;
     transition: all 0.6s;
+    box-shadow: 2px  3px chocolate;
 }
 #menu{
-    font-size: 4vw;
+    font-size: 50px;
     cursor: pointer;
     display: none;
-    cursor: pointer;
     transition: all 0.6s;
 }
 .material-symbols-outlined{
@@ -114,29 +119,31 @@ body{
 }
 .txt{
     color: white;
-    font-size: 5.5vw;
+    font-size: 70px;
     letter-spacing: 0.3vw;  
 }
 .Header-Texte h3{
     margin: 20px;
     color: rgba(255, 255, 255, 0.993);
-    font-size: 2vw;
+    font-size: 30px;
 }
 .button{
     margin: auto;
     margin: 55px 0;
-    font-size: 1.5vw;
+    font-size: 20px;
     border-radius: 15px;
-    padding:10px 60px;
+    padding:10px 40px;
     transition: all 0.6s;
     color: white;
     background-color: chocolate;
     cursor: pointer;
     position: relative;
+    box-shadow: 2px  2px white;
 }
 .button:hover{
+    font-size: 23px;
     transition: all 0.6s;
-    background-color: rgba(210, 105, 30, 0.76);
+    box-shadow: 3px  3px white;
 }
 /*!
 =========================================================
@@ -149,19 +156,21 @@ body{
     justify-content: space-between;
     flex-wrap: nowrap;
     height: 100vh;
-    width: 90vw;
+    width: auto;
     margin: auto;
     margin-bottom: 20px;
+    gap: 15px;
+    padding: 0 80px;
 }
 .Our-img{
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     margin: auto;
 }
 .Our-img a{
-    height: 40vh;
-    width: 20vw;
+    height:300px;
+    width: 200px;
     display: flex;
 }
 .lot-img1{
@@ -206,28 +215,28 @@ body{
 }
 /*Story-txt*/
 .Story-txt{
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 .Story-txt h1{
-    font-size: 6vw;
+    font-size: 80px;
     color: chocolate;
 }
 .Story-txt p{
-    font-size: 1.8vw;
+    font-size: 20px;
     color: white;
     margin:10px 0;
 }
 .Story-txt a{
     margin: 5px 0;
-    font-size: 1.5vw;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.6s;
 }
 .Story-txt a:hover{
-
     color: chocolate;
 }
 /*!
@@ -243,55 +252,56 @@ body{
    text-align: center;
 }
 .menu-title h1{
-font-size: 5vw;
-color: chocolate;
+    font-size: 80px;
+    color: chocolate;
 }
 .menu-title p{
-    padding:0 20vw;
-    font-size: 2vw;
+    margin-bottom:30px ;
+    margin-top:10px ;
+    padding:0 200px;
+    font-size: 20px;
     color: white;
 }
 .item-menu{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 80vw;
+    width: 80%;
     margin: auto;
-    margin-top: 35px;
 }
 .menu1{
     background: transparent;
+    height:auto;
+    width: auto;
 }
 .img-menu1{
     background: transparent;
 }
 a.ai{
-    height: 40vh;
-    width: 25vw;
+    height: 20em;
+    width: 18em;
     display: flex;
     background-color: brown;
 }
 .menu1{
     background: transparent;
-    height: 50vh;
-    width: 25vw;
+    height:auto;
+    width: auto;
 }
 .menu2{
     background: transparent;
-    height: 50vh;
-    width: 25vw;
+    height:auto;
+    width: auto;
 }
 .menu3{
     background: transparent;
-    height: 50vh;
-    width: 25vw;
+    height:auto;
+    width: auto;
 }
 .img-menu1 {
     background: url(./Img/Plat-riz.jpg) ;
     background-position: center;
     background-size: cover;
-    height: 60vh;
-    width: 25vw;
     border-radius: 7px 7px 0 0  ;
     background-color: rgba(0, 0, 0, 0.527);
 }
@@ -299,8 +309,6 @@ a.ai{
     background: url(./Img/Viandes.jpg) ;
     background-position: center;
     background-size: cover;
-    height: 60vh;
-    width: 25vw;
     border-radius: 7px 7px 0 0  ;
     background-color: rgba(0, 0, 0, 0.527);
 }
@@ -308,15 +316,12 @@ a.ai{
     background: url(./Img/Cotes-de-porc.jpg) ;
     background-position: center;
     background-size: cover;
-    height: 60vh;
-    width: 25vw;
-    border-radius:5px;
     border-radius: 7px 7px 0 0  ;
     background-color: rgba(0, 0, 0, 0.527);
 }
 .menu-text{
-    height: 15vh;
-    width: 25vw;
+    height: 8.5em;
+    width: 18em;
     background-color: rgba(0, 0, 0, 0.527);
     border-radius:0 0 7px 7px ;
 }
@@ -324,7 +329,7 @@ a.ai{
 .menu-text p{
    color: white;
    position: relative;
-   font-size: 1.5vw;
+   font-size: 20px;
    padding: 0 10px;
    padding-top: 9px ;
 }
@@ -357,6 +362,7 @@ a.ai{
     color: chocolate;
     text-decoration: none ;
 }
+
 /*!
 =========================================================
      *Taste
@@ -364,37 +370,38 @@ a.ai{
 */
 .taste{
     height: 100vh;
-    width: 90vw;
+    width: auto;
     display: flex;
     flex-wrap: nowrap;
     margin: auto;
+    padding: 0 80px;
+    margin-bottom:35px ;
 }
 .taste-txt{
-    width: 50vw;
-    padding: 0 10px;
+    width: 50%;
     margin: auto;
 }
 .taste-txt h1{
-   font-size: 5vw;
+   font-size: 60px;
    color:chocolate;
    padding: 15px 0;
 }
 .taste-txt p{
     color: white;
-    font-size: 2vw;
+    font-size: 20px;
  }
 .taste-img{
-    width: 50vw;
+    width: 50%;
     margin: auto;
-    margin-bottom:35px ;
 }
 /*Taste-img*/
 .taste-img img{
     object-fit: cover;
     object-position: center;
-    height:70vh;
-    width: 40vw;
+    height:40em;
+    width: 30em;
     padding: 0 20px;
+    margin: auto;
 }
 /*!
 =========================================================
@@ -403,8 +410,10 @@ a.ai{
 */
 
 .opignon{
-    width: 100%;
-    height: 50vh;
+    width: 100vw;
+    height: 50%;
+    margin: 20px 0;
+    padding: 80px;
     background:url(./Img/op.jpg);
     background-position: center;
     background-size: cover;
@@ -425,7 +434,7 @@ a.ai{
     padding-bottom: 50px;
     padding-top: 20px;
     text-align: center;
-    font-size: 5vw;
+    font-size: 60px;
     color: chocolate;
     position: relative;
 }
@@ -434,7 +443,7 @@ a.ai{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    width: 70vw;
+    width: auto;
     margin:auto;
     gap: 10px;
 
@@ -457,7 +466,7 @@ a.ai{
 
 }
 .opignon-txt{
-    width: auto;
+    width: 70%;
     height: auto;
     margin: auto;
     margin-bottom:35px ;
@@ -466,6 +475,6 @@ a.ai{
 .opignon-txt p{
    line-height: 30px;
    color: white;
-   font-size: 1.8vw;
+   font-size: 20px;
    margin: auto;
 }
