@@ -8,26 +8,28 @@
     #li-nav{
         display: none;
     }
-    
+
     #menu{
         display: block;
         position: fixed;
         right: 0;
         top: 0;
-        margin:20px 45px;
-        padding-right: 25px;
+        padding: 20px;
+        padding-right:40px ;
         font-size: 30px;
         z-index: 30000;
         transition: all 0.5s ease;  
     }
+
     .nav-bar{
         justify-content: space-between;
         padding: 0 ;
     }
+
     a.title{
         position: fixed;
-        z-index: 0;
-        padding: 10px 45px;
+        z-index: 1;
+        padding: 5px 40px;
         top: 0;
         background-color:black;
         width: 100vw;
@@ -53,13 +55,65 @@
         backdrop-filter: blur(7px);
         transition: all 0.5s ease;    
 }
-/********************opignon***************************/
-.opignon{
-    height: auto;
+ /**********************Menu-du-jour**************************/
+ .item-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
 }
-.opignon-txt p{
-    font-size: 20px;
+a.ai{
+    height: 18em;
+    width: 16.1em;
+    display: flex;
+    background-color: brown;
 }
+.menu-text{
+    height: 8.5em;
+    width: 15.5em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius:0 0 7px 7px ;
+}
+
+.menu-text p{
+   color: white;
+   position: relative;
+   font-size: 20px;
+   padding-top: 9px ;
+}
+.orloge{
+   display: flex;
+   align-items: center;
+   color: white;
+   padding: 5px 2px;
+   justify-content: flex-start;
+}
+.menu-commender{
+    color: chocolate;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.container{
+    width: 110px;
+    height: 20px;
+    position: relative;
+    padding: 0 0px;
+}
+
+.checked{
+    color: chocolate;
+}
+#cmd{
+    padding: 5px 5px;
+    background-color: transparent;
+    color: chocolate;
+    text-decoration: none ;
+}
+
 }
 /*!
 =========================================================
@@ -68,45 +122,51 @@
 */
  @media only screen and (max-width : 992px)
  {
- /**********************Header**************************/
- .nav-bar{
-     gap: 4vw;
- }
- .title{
-     font-size: 6vw;
- }
- .nav-bar ul{
-     font-size: 2.5vw;
- }
- /*Header-Texte*/
+/**********************Menu-du-jour**************************/
 
- .Header-Texte{
-     padding:80px;
-
+    /*Header-Texte*/
+    .Header-Texte{
+        padding:180px 100px;
+    }
+    .txt{
+        color: white;
+        font-size: 60px;
+    }
+/**********************Our-Storry**************************/
+.Our-story{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    gap: 40px;
+    padding: 0 70px;
+}
+.Our-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.lot-img1{
+    margin: 15px 5px;
+    padding: 30px 0;
+}
+.lot-img2{
+    margin: 10px 2px;
+}
+.Our-img a{
+    height:250px;
+    width: 180px;
+    display: flex;
+}
+.Story-txt{
+    width: 50%;
+    margin: auto;
+}
  }
- .txt{
-     font-size: 6.5vw; 
-     margin-top:60px; 
-     margin-bottom:10px;    
- }
- .Header-Texte h3{
-     font-size: 2.4vw;
- }
- .button{
-     font-size: 2vw;
-     padding:10px 50px;
-     margin: 0;
- }
-  }
-/**********************Our-story**************************/
- .Our-img{
-     width: 50%;
- }
- .Our-img a{
-     height: 35vh;
-     width: 20vw;
- }
-
 /*!
 =========================================================
      * <768px
