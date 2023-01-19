@@ -390,18 +390,18 @@ a.ai{
     color: white;
     font-size: 20px;
  }
+ /*Taste-img*/
 .taste-img{
     width: 50%;
     margin: auto;
 }
-/*Taste-img*/
 .taste-img img{
     object-fit: cover;
     object-position: center;
     height:40em;
     width: 30em;
-    padding: 0 20px;
     margin: auto;
+    display: flex;
 }
 /*!
 =========================================================
