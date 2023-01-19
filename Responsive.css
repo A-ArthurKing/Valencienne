@@ -29,7 +29,8 @@
     a.title{
         position: fixed;
         z-index: 1;
-        padding: 5px 40px;
+        padding: 0 40px;
+        padding-top: 10px;
         top: 0;
         background-color:black;
         width: 100vw;
@@ -105,7 +106,11 @@ a.ai{
 #cmd{
     padding: 5px 5px;
 }
-
+/***************Our-chrfs****************************/
+.our-chefs{
+    height: auto;
+    width: 100vw;
+}
 }
 /*!
 =========================================================
@@ -239,6 +244,18 @@ a.ai{
     width: 80%;
     gap: 15px;
 
+}
+/**********************Our-chef**************************/
+.our-chef-body{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 5px;
+    gap: 10px;
+}
+.chef1-img ,.chef2-img , .chef3-img{
+    height:350px;
+    width: 200px;
 }
 /*!
 =========================================================
@@ -375,6 +392,32 @@ a.ai{
     width: 80%;
     gap: 15px;
 
+}
+/**********************Our-chef**************************/
+.our-chef-body{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+    gap: 10px;
+}
+.chef1 , .chef2 , .chef3{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+}
+.chef1-img ,.chef2-img , .chef3-img{
+    height:350px;
+    width: 80%;
+}
+.chef1-name , .chef2-name , .chef3-name{
+    height: 100px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 /*!
 =========================================================
@@ -634,6 +677,13 @@ a.title{
   .taste-txt p{
     font-size: 20px;
 }
+/**********************Our-chefs********************/
+.our-chef-head h1{
+    font-size: 40px;
+}
+.our-chef-head p{
+    padding: 10px;
+}
 }
 /*!
 =========================================================
@@ -678,6 +728,6 @@ a.title{
         padding: 5px 10px;
         margin-bottom: 20px;
     }
-
+   
  }
  

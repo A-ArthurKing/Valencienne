@@ -9,9 +9,10 @@
     padding: 0;
     border-style: none;
     list-style: none;
+    box-sizing: border-box;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.877);
 }
 
 /*!
@@ -145,6 +146,7 @@ body{
     transition: all 0.6s;
     box-shadow: 3px  3px white;
 }
+
 /*!
 =========================================================
      *Our-story
@@ -239,6 +241,7 @@ body{
 .Story-txt a:hover{
     color: chocolate;
 }
+
 /*!
 =========================================================
      *Menu-du-jour
@@ -339,6 +342,7 @@ a.ai{
    color: white;
    padding: 10px 5px;
    justify-content: flex-start;
+   font-size: 15px;
 }
 .menu-commender{
     color: chocolate;
@@ -403,6 +407,7 @@ a.ai{
     margin: auto;
     display: flex;
 }
+
 /*!
 =========================================================
      *Opignon
@@ -476,3 +481,229 @@ a.ai{
    font-size: 20px;
    margin: auto;
 }
+
+/*!
+=========================================================
+     *Our-chefs
+=========================================================
+*/
+.our-chefs{
+    height: 100vh;
+    width: 100vw;
+}
+/********our-chef-head*/
+.our-chef-head{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.our-chef-head h1{
+    font-size: 70px;
+    color: chocolate;
+    padding: 20px;
+}
+.our-chef-head p{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+.our-chef-body{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 80px;
+    gap: 10px;
+}
+
+.chef1 , .chef2 , .chef3{
+    height: auto;
+    width: auto;
+    margin: auto;
+    gap: 10px;
+}
+
+.chef1-img{
+    background-color: white;
+    height:350px;
+    width: 270px;
+    margin: auto;
+    background: url(./Img/chef1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.chef2-img {
+    background-color: white;
+    height:350px;
+    width: 270px;
+    margin: auto;
+    background: url(./Img/chef2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.chef3-img {
+    background-color: white;
+    height:350px;
+    width: 270px;
+    margin: auto;
+    background: url(./Img/chef3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.chef1-name , .chef2-name , .chef3-name{
+    height: 100px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.firstname{
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    margin: auto;
+}
+.work{
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+/*!
+=========================================================
+     *Galérie
+=========================================================
+*/
+.galerie{
+    height: auto;
+    width: 100vw ;
+    text-align: center;
+}
+.galérie-title{
+    font-size: 70px;
+    color: chocolate;
+    text-align: center;
+    padding:  25px 0;
+}
+.item-gallerie{
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.ig1{
+    height: 280px;
+    width: 250px;
+    background: url(./Img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.ig2{
+    height: 280px;
+    width: 250px;
+    background: url(./Img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.ig3{
+    height: 280px;
+    width: 250px;
+    background: url(./Img/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.ig4{
+    height: 280px;
+    width: 250px;
+    background: url(./Img/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.ig5{
+    height: 280px;
+    width: 250px;
+    background: url(./Img/img5.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.ig6{
+    height: 280px;
+    width: 250px;
+    background: url(./Img/img6.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.btn-glr{
+    font-size: 20px;
+    background-color: white;
+    color: chocolate;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 6px black;
+    transition: all 0.3s;
+    margin: 20px 0;
+}
+.btn-glr:hover{
+    box-shadow: 5px 6px;
+    padding: 10px 25px;
+    transition: all 0.3s;
+    font-size: 22px;
+}
+/*!
+=========================================================
+     *Footer
+=========================================================
+*/
+.footer{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.836);
+    margin-top: 20px;
+}
+.foottiltle{
+    height: 80px;
+    width: 100vw;
+    padding: 10px 80px;
+    background-color: black;
+}
+.tt{
+    font-weight: lighter;
+    font-family: 'Qwigley', cursive;
+    font-size: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.tt::first-letter{
+    color: chocolate;
+ }
+ .footlink{
+    height: 300px;
+    width: 100vw;
+ }
+ .foot{
+    background-color: black;
+    height: 80px;
+    width: 100vw;
+    text-align: center;
+ }
+ .foot p{
+    color: rgba(255, 255, 255, 0.589);
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+ }
