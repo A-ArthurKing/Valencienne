@@ -1,0 +1,127 @@
+
+@media only screen and (max-width:1024px) {
+    
+}
+
+
+@media only screen and (max-width:992px) {
+/*!
+=========================================================
+     *HEADER
+=========================================================
+*/
+/*Nav*/
+    .nav-bar ul{
+        display: none;
+    }
+/*Header-Texte*/
+    .txt{
+        font-size: 75px;
+    }
+    .Header-Texte h3{
+        font-size: 40px;
+    }
+    .Header-Texte .button{
+        font-size: 17px;
+        border-radius: 15px;
+        padding:10px 30px;
+    }
+    /*!
+=========================================================
+     *Menu-Pizza
+=========================================================
+*/
+    .head-menu h1{
+        font-size: 75px;
+    }
+    .head-menu p{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+/*!
+=========================================================
+     *HEADER
+=========================================================
+*/
+/*Nav*/
+
+/*Header-Texte*/
+    .head{
+        height: auto;
+        width:100vw;
+        position: relative;
+    }
+    .Header-Texte{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin: auto;
+        gap: 10px;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .txt{
+        font-size: 60px;
+        text-align: center;
+        padding:0;
+        padding-bottom: 20px;
+    }
+    .Header-Texte h3{
+        font-size: 25px;
+    }
+    /*!
+=========================================================
+     *Menu-Pizza
+=========================================================
+*/
+    .head-menu h1{
+        font-size: 60px;
+    }
+    .head-menu p{
+        font-size: 25px;
+    }
+}
+
+
+
+@media only screen and (max-width:600px) {
+    
+/*!
+=========================================================
+     *HEADER
+=========================================================
+*/
+/*Nav*/
+
+    /*Header-Texte*/
+    .Header-Texte{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin: auto;
+        gap: 10px;
+        padding:80px 10px;
+        padding-bottom: 0;
+    }
+    .txt{
+        font-size: 60px;
+        text-align: center;
+    }
+    .Header-Texte h3{
+        font-size: 25px;
+    }
+/*!
+=========================================================
+ *Menu-Pizza
+=========================================================
+    */
+    .head-menu h1{
+        font-size: 60px;
+    }
+    .head-menu p{
+        font-size: 25px;
+    }
+}

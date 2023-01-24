@@ -48,8 +48,7 @@ body{
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.603);
     color: White;
-    gap: 5vw;
-    padding: 0 30px;
+    padding: 0 20px ;
     position: relative;
     transition: all 0.5s ease;  
 }
@@ -132,7 +131,7 @@ body{
     color: rgba(255, 255, 255, 0.993);
     font-size: 50px;
 }
-.button{
+.Header-Texte .button{
     margin: auto;
     margin: 25px 0;
     font-size: 20px;
@@ -149,4 +148,42 @@ body{
     font-size: 23px;
     transition: all 0.6s;
     box-shadow: 3px  3px white;
+}
+/*!
+=========================================================
+     *Menu-Pizza
+=========================================================
+*/
+/*Nav*/
+
+.menu-pizza{
+    height: 100vh;
+    width: 100vw;
+    background: url(./Img/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.menu-pizza::before{
+   position: absolute;
+   background-color: rgb(0, 0, 0);
+   content: "";
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   opacity: 60%;  
+}
+.head-menu{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.head-menu h1{
+    font-size: 90px;
+    color: chocolate;
+}
+.head-menu p{
+    font-size: 60px;
+    color: white;
 }
